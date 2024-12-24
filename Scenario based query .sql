@@ -89,3 +89,4 @@ Select a.acct_id from ci_acct a
 left outer join ci_sa sa
 on a.acct_id = sa.acct_id 
 where sa.sa_status_flg = '20' and sa.sa_Status_flg <> '20';
+janan
